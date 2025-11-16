@@ -3,24 +3,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Main container */
 .book-library {
     width: 80%;
     margin: 30px auto;
     background: #ffffff;
-    padding: 10px 0 30px;
+    padding: 20px 0 30px;
     border-radius: 6px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
     text-align: center;
 }
 
-/* Heading */
-.book-library h2 {
-    font-size: 22px;
+.book-library h1 {
+    font-size: 26px;
     margin-bottom: 20px;
 }
 
-/* Every book block */
+/* Each Book */
 .book {
     margin: 20px auto;
     padding-bottom: 20px;
@@ -30,11 +28,10 @@ body {
 
 .book img {
     width: 180px;
-    height: auto;
     border-radius: 4px;
 }
 
-.book h3 {
+.book h2 {
     font-size: 18px;
     margin: 12px 0 5px;
 }
@@ -45,7 +42,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* Green Price Bar */
+/* Price Bar */
 .price-block {
     width: 100%;
     background-color: #2ecc71;
